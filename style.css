@@ -1,0 +1,374 @@
+.myContainer{
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+.btn-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #402B2B;
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px #FEEAE6;
+    padding: 25px 0px 25px 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+.load-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px 25px 90px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    width: 100%;
+    background-color: #F9CDC8;
+    color: #ED4D47;
+}
+
+.btn-list div:first-child{
+    padding-right: 60px;
+}
+
+.btn-list div:last-child, .load-more div:last-child{
+    padding: 0 35px 0 35px;
+}
+
+.faq-ul{
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+.faq-ul li{
+    width: 550px;
+    margin: 5px 10px 5px 10px;
+}
+
+.faq-ul li button{
+    height: 90px;
+}
+
+.card-list{
+    padding: 30px 35px 60px 35px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #402B2B;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(254, 233, 231, 0.733) 0%, rgba(255, 255, 255, 0.89) 20%);
+
+}
+
+body{
+    background-color: #FEF8F5;
+}
+
+header{
+    height: 130vh;
+    padding: 40px 20px;
+    background: url("images/backround.png") no-repeat center/cover;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.nav-item a{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin-left: 20px;
+    padding: 20px 24px;
+    color: white;
+}
+
+.nav-item.active a{
+    background-color: #EE4D47;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.nav-item.active a:hover{
+    background-color: #eb7b77;
+}
+
+.title{
+    color: white;
+    margin: 90px 0 60px 0;
+    width: 740px;
+    height: 300px;
+    left: 240px;
+    top: 190px;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+
+}
+
+.primary-buttom{
+    position: relative;
+    background-color: #EE4D47;
+    border-radius: 5px;
+    transition: 0.2s;
+    border: none;
+    color: white;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    padding: 20px 80px 20px 25px;
+
+    cursor: pointer;
+}
+
+.primary-buttom:hover{
+    background-color: #eb7b77;
+}
+
+.primary-buttom::after{
+    content: '';
+    position:absolute;
+    top: 22px;
+    right: 25px;
+    display: block;
+    background: url("images/arrow.png");
+    width: 30px;
+    height: 13px;
+}
+
+.about-us{
+    height: 550px;
+}
+
+.end{
+    padding: 100px 135px 0 240px;
+}
+
+.text-a{
+    width: 570px;
+    height: 160px;  
+    background-color: #FCDDD4;
+    border-width: 15px;
+    border-left-style: solid;
+    border-color: #ED4D47;
+    border-radius: 10px 0px 0px 10px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #402B2B;
+    padding: 30px 55px;
+}
+
+.text-b{
+    width: 400px;
+    background-color: #00000000;
+    border-width: 15px;
+    border-left-style: solid;
+    border-color: #ED4D47;
+    border-radius: 10px 0px 0px 10px;
+
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: white;
+    padding: 30px 55px;
+}
+
+p{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    width: 420px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    color: #402B2B;
+}
+
+h3{
+    margin-top: 74px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #EE4D47;
+}
+
+h2{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 140%;
+    color: #402B2B;
+}
+
+.faqImg{
+    position: relative;
+    top: -100px;
+    left: -40px;
+}
+
+main{
+    margin-top: 106px;
+
+}
+
+.margin-in-main{
+    margin: 200px 0;
+}
+
+.footerCar{
+    position: relative;
+    top: 40px;
+}
+
+.blueBox{
+    background-color: #0F264C;
+    height: 660px;
+    width: 1400px;
+    border-radius: 0 20vh 0 0;
+}
+
+div form{
+    width: 550px;
+    height: 440px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 52px 75px;
+
+    position: relative;
+    top: -200px;
+}
+
+form div{
+    margin-top: 30px;
+}
+
+form div:first-child{
+    margin-top: 0;
+}
+
+form div input{
+    margin-top: 10px;
+    height: 60px;
+}
+
+footer{
+    height: 182px;
+    padding: 50px 335px 92px 240px;
+}
+
+footer div{
+    height: 40px;
+    align-items: center;
+}
+
+footer div ul li{
+    margin: 0 15.5px;
+}
+
+.pinkBox{
+    margin-left: auto; 
+    margin-right: 0;
+    border-radius: 20vh 0 0 0;
+    background-color: #FDEDE8;
+    width: 1170px;
+    padding: 200px 0 110px 0;
+}
+
+.box{
+    position: relative;
+    left: -263px;
+    width: 1200px;
+}
+
+.my-card{
+    margin:10px;
+    width: 420px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 0px 20px 10px #FEEAE6;;
+}
+
+.my-card .text{
+    word-wrap:break-word;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #402B2B;
+}
+
+.my-card div h6{
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    color: #402B2B;
+}
+
+.info{
+    height: 360px;
+}
+
+.slick{
+    width: 1150px;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.buttoms{
+    justify-content: flex-end;
+    margin: 100px 240px 60px 0;
+}
+
+.buttoms div{
+    margin: 0 15px;
+}
